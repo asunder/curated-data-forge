@@ -5,7 +5,8 @@ import {
   FileText, 
   Settings,
   Search,
-  Sparkles
+  Sparkles,
+  Target
 } from "lucide-react";
 import { NavLink, useLocation } from "react-router-dom";
 
@@ -26,6 +27,7 @@ const navigation = [
   { title: "Datasets", url: "/", icon: Database },
   { title: "Quality Metrics", url: "/quality", icon: BarChart3 },
   { title: "Synthetic Data", url: "/synthetic", icon: Sparkles },
+  { title: "Edge Case Mining", url: "/edge-cases", icon: Target },
   { title: "Pipelines", url: "/pipelines", icon: Cpu },
   { title: "Documentation", url: "/docs", icon: FileText },
 ];
